@@ -26,7 +26,7 @@ jobs:
           channel: "stable"
           cache: true
 
-      - nam: Get dependencies
+      - name: Get dependencies
         run: flutter pub get
 
       - name: Build Android APK
